@@ -1,0 +1,1 @@
+Invoke-WebRequest -OutFile fileHandling.py -Uri https://raw.githubusercontent.com/szcarr/Python/main/FileHandling/fileHandling.py
