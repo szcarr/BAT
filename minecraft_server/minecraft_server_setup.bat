@@ -2,7 +2,7 @@
 
 REM Script for downloading and setting up minecraft server on a windows computer. Location of server is in your documents folder.
 REM Parameter in, is the name of the minecraft folder.
-REM Program must be run in cmd.
+REM Program must be run in cmd (NOT POWERSHELL).
 
 REM del /s %USERPROFILE%\Documents\%1
 set scriptlocation=%cd%
