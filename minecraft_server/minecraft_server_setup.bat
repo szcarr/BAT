@@ -19,7 +19,7 @@ powershell.exe -command "& Invoke-WebRequest -OutFile server.jar -Uri https://pi
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 
 del eula.txt
-echo eula=true > eula.txt
+echo eula=true>eula.txt
 
 echo Server folder location: %cd%\%1
 
