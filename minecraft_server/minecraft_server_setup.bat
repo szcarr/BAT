@@ -4,7 +4,7 @@ REM Script for downloading and setting up minecraft server on a windows computer
 REM First parameter in, is the name of the minecraft folder.
 REM Example program call: minecraft_server_setup.bat my_server_name
 REM Program must be run in cmd (NOT POWERSHELL).
-REM Obviously need java before running. (https://www.java.com/en/download/)
+REM Obviously need java before running. https://www.oracle.com/java/technologies/downloads/#jdk20-windows
 
 REM del /s %USERPROFILE%\Documents\%1
 set scriptlocation=%cd%
