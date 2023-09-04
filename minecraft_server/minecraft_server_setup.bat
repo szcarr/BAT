@@ -14,7 +14,7 @@ mkdir %1
 cd %1
 
 REM Getting the minecraft_server.jar
-REM Minecraft version 1.19.2
+REM Minecraft version 1.20.1
 powershell.exe -command "& Invoke-WebRequest -OutFile server.jar -Uri https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar"
 
 java -Xmx1024M -Xms1024M -jar server.jar nogui
